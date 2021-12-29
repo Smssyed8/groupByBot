@@ -1,0 +1,35 @@
+{
+    "name": "telegram-expense-bot",
+    "version": "1.8.1",
+    "description": "A bot that helps you manage and track your daily expenses.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine",
+        "start": "node index.js"
+    },
+    "homepage": "https://github.com/muety/telegram-expense-bot",
+    "author": {
+        "name": "Ferdinand Mütsch",
+        "url": "https://muetsch.io"
+    },
+    "license": "MIT",
+    "keywords": [
+        "telegram",
+        "bot",
+        "expenses",
+        "nodejs"
+    ],
+    "dependencies": {
+        "@codewithdan/observable-store": "^2.2.14",
+        "mongodb": "^3.5.0",
+        "node-cron": "^2.0.3",
+        "nodemon": "^2.0.15",
+        "prom-client": "git://github.com/siimon/prom-client",
+        "rxjs": "^7.4.0",
+        "safe-eval-2": "^0.4.2",
+        "telegram-bot-sdk": "^0.3.1"
+    },
+    "devDependencies": {
+        "jasmine": "https://github.com/jasmine/jasmine-npm.git"
+    }
+}
